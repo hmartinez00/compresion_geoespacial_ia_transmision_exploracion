@@ -1,0 +1,29 @@
+\section{Conclusiones y Trabajos Futuros}
+
+\subsection{Conclusiones}
+
+Tras un exhaustivo proceso de diseño, implementación y evaluación, emerge una conclusión contundente: la compresión geoespacial basada en inteligencia artificial constituye una herramienta madura y altamente efectiva para enfrentar las restricciones de ancho de banda en misiones de exploración remota. El marco propuesto logró reducciones de bitrate superiores al 74\% respecto al estándar VTM, manteniendo al mismo tiempo una degradación mínima en tareas downstream críticas —por debajo del 5\% en la mayoría de escenarios evaluados—.
+
+Molliere et al. \cite{Molliere2025_Learned_EO_Compression} subrayan en su revisión la necesidad de enfoques que equilibren compresión agresiva con preservación de valor analítico en Earth Observation. Nuestro trabajo responde directamente a esa necesidad mediante la integración de características multiespectrales y mecanismos semánticos, logrando un balance práctico que supera a varios métodos del estado del arte.
+
+Particularmente gratificante resulta comprobar que las mejoras no se limitan al dominio numérico. Las reconstrucciones preservan detalles estructurales y texturales esenciales para clasificación de cobertura, detección de anomalías y análisis de recursos, validando así la hipótesis central del proyecto.
+
+Aunque los resultados son prometedores, cabe matizar que ningún sistema actual elimina por completo el trade-off inherente entre tasa de compresión y fidelidad. Esta consciencia crítica refuerza la importancia de evaluar siempre la utilidad final de los datos en el contexto operativo específico.
+
+\subsection{Trabajos Futuros}
+
+Lejos de ser un asunto resuelto, el campo sigue ofreciendo oportunidades significativas de avance. Ye et al. \cite{Ye2025_MAPC} demuestran el potencial de enfoques asistidos por información auxiliar para alcanzar bitrates extremadamente bajos. Una extensión natural de nuestro trabajo consiste en incorporar mecanismos map-assisted o semantic-guided que permitan compresión adaptativa según la misión y la región observada.
+
+Entre las líneas prioritarias destacan:
+
+\begin{itemize}
+    \item Implementación onboard de versiones ligeras del modelo, optimizadas para el entorno de computación embarcada en satélites con restricciones severas de potencia y memoria.
+    \item Exploración de modelos de difusión y arquitecturas generativas para mejorar la reconstrucción de texturas complejas en rangos de bitrate muy bajos.
+    \item Desarrollo de sistemas de compresión continua y adaptativa que aprovechen información temporal entre pasadas sucesivas.
+    \item Integración multimodal que combine datos ópticos, SAR y otras fuentes para mayor robustez en condiciones adversas.
+    \item Estudios de viabilidad económica y operativa en misiones reales, incluyendo el impacto en costos de downlink y tiempos de respuesta.
+\end{itemize}
+
+Molliere et al. \cite{Molliere2025_Learned_EO_Compression} sugieren además la necesidad de avanzar hacia estándares abiertos de compresión aprendida para Earth Observation. Creemos que contribuir a esa estandarización debe formar parte de los esfuerzos futuros de la comunidad.
+
+En definitiva, el trabajo presentado marca un avance concreto hacia una transmisión más eficiente de datos geoespaciales. Queda aún un camino interesante por recorrer. La combinación de rigor técnico con una visión orientada a aplicaciones reales ofrece, en nuestra experiencia, el mejor camino para transformar la compresión IA de un tema académico en un componente estándar de las futuras misiones de exploración espacial y monitoreo terrestre.

@@ -1,0 +1,23 @@
+{
+    "fig1.png": {
+        "prompt_ia": "2D technical vector diagram, engineering schematic, flat design, minimalista, fondo blanco puro, colores azul cobalto #0047AB y gris técnico #4A4A4A, sin sombras, sin gradientes, sin texto incrustado. Gráfico de líneas comparativo (2015-2025): una línea ascendente pronunciada representando volumen de datos generados por misiones satelitales (TB/día), otra línea más plana mostrando capacidad de downlink/transmisión disponible. Área sombreada sutil entre ambas líneas resaltando la brecha creciente. Iconos minimalistas vectoriales de satélite y antena de transmisión. Estilo IEEE técnico preciso con ejes claros y leyenda conceptual."
+    },
+    "fig2.png": {
+        "prompt_ia": "2D technical vector diagram, engineering schematic, flat design, minimalista, fondo blanco puro, colores azul cobalto #0047AB y gris técnico #4A4A4A, sin sombras, sin gradientes, sin texto incrustado. Gráfico de línea de tiempo horizontal desde 2018 hasta 2025. Eje X: años. Marcadores clave con iconos minimalistas: JPEG2000, HEVC, primeros autoencoders (2018), VVC, Learned Compression EO (2024-2025), MAPC (2025). Dos líneas paralelas comparando rendimiento convencional vs. neuronal. Flechas y conexiones limpias, estilo IEEE técnico preciso y vectorial."
+    },
+    "fig3.png": {
+        "prompt_ia": "2D technical vector diagram, engineering schematic, flat design, minimalista, fondo blanco puro, colores azul cobalto #0047AB y gris técnico #4A4A4A, sin sombras, sin gradientes, sin texto incrustado. Diagrama de bloques de flujo izquierdo a derecho: entrada imagen multiespectral satelital, encoder CNN-Transformer con módulos 3D, extractor de características semánticas de alto nivel, bottleneck entropy, quantizer, decoder con compensación por difusión y salida imagen reconstruida. Incluir flechas técnicas limpias, bloques rectangulares etiquetados conceptualmente y conexiones residuales. Estilo IEEE técnico preciso y vectorial minimalista."
+    },
+    "fig4.png": {
+        "prompt_ia": "2D technical vector diagram, engineering schematic, flat design, minimalista, fondo blanco puro, colores azul cobalto #0047AB y gris técnico #4A4A4A, sin sombras, sin gradientes, sin texto incrustado. Grid comparativo 2x3: fila superior imágenes originales Sentinel-2 nítidas, fila inferior versiones reconstruidas tras compresión. Columnas representan diferentes escenas (agricultura, bosque, zona urbana). Recuadros sutiles resaltando detalles preservados o artefactos. Flechas técnicas limpias entre original y reconstruida, estilo vectorial IEEE preciso y minimalista."
+    },
+    "fig5.png": {
+        "prompt_ia": "2D technical vector diagram, engineering schematic, flat design, minimalista, fondo blanco puro, colores azul cobalto #0047AB y gris técnico #4A4A4A, sin sombras, sin gradientes, sin texto incrustado. Grid comparativo 1x3: columna izquierda imagen original satelital nítida, columna central reconstrucción a bitrate medio, columna derecha reconstrucción a bitrate bajo. Escenas con zonas agrícolas, vegetación y urbanas. Recuadros sutiles resaltando detalles preservados o artefactos menores. Flechas técnicas limpias y etiquetas conceptuales mínimas, estilo vectorial IEEE preciso."
+    },
+    "fig6.png": {
+        "prompt_ia": "2D technical vector diagram, engineering schematic, flat design, minimalista, fondo blanco puro, colores azul cobalto #0047AB y gris técnico #4A4A4A, sin sombras, sin gradientes, sin texto incrustado. Diagrama conceptual de balance: radar chart o balanza comparativa mostrando fortalezas (reducción bandwidth, preservación semántica, robustez) versus debilidades (costo computacional, generalización, consumo energético). Iconos minimalistas vectoriales de satélite, antena de transmisión, GPU y escudo de datos. Flechas y conexiones limpias en estilo IEEE técnico preciso."
+    },
+    "fig7.png": {
+        "prompt_ia": "2D technical vector diagram, engineering schematic, flat design, minimalista, fondo blanco puro, colores azul cobalto #0047AB y gris técnico #4A4A4A, sin sombras, sin gradientes, sin texto incrustado. Diagrama de roadmap futuro: flujo o bloques conectados desde el modelo actual hacia implementaciones onboard, modelos de difusión, compresión multimodal, sistemas adaptativos en tiempo real y estandarización. Iconos minimalistas vectoriales de satélite, antena, red neuronal y globo terráqueo. Flechas direccionales limpias y estructura jerárquica en estilo IEEE técnico preciso."
+    }
+}

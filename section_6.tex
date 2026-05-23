@@ -1,0 +1,23 @@
+\section{Discusión}
+
+\subsection{Fortalezas y Debilidades}
+
+Resulta revelador observar cómo un modelo que brilla en métricas controladas revela su verdadera naturaleza cuando se somete a escrutinio más profundo. Entre las fortalezas más destacadas figura la capacidad del enfoque híbrido para mantener una utilidad analítica aceptable incluso a tasas de compresión agresivas. Molliere et al. \cite{Molliere2025_Learned_EO_Compression} señalan que muchos métodos de compresión aprendida luchan por generalizar en Earth Observation; nuestra propuesta mitiga parcialmente este problema mediante el módulo multiespectral y la optimización semántica.
+
+La robustez ante variabilidad de sensores constituye otra ventaja clara. No obstante, cabe matizar que el costo computacional del entrenamiento y la inferencia sigue siendo elevado, lo que podría limitar su adopción en entornos con recursos restringidos. Aunque el rendimiento es sólido en la mayoría de escenarios probados, aparecen degradaciones más pronunciadas en imágenes hiperespectrales con alta dimensionalidad.
+
+\subsection{Implicaciones para Misiones de Exploración}
+
+Uno de los desafíos persistentes que surge al desarrollar tecnologías de compresión radica en conectar las mejoras técnicas con beneficios operativos concretos. Wang et al. \cite{Wang2025_RS_Compression} demuestran cómo reducciones significativas de ancho de banda impactan directamente en la viabilidad de transmisiones frecuentes.
+
+En misiones de exploración, las ganancias obtenidas permiten transmitir volúmenes mayores de datos por pasada o habilitar actualizaciones más frecuentes desde órbitas LEO. Esto resulta especialmente valioso en aplicaciones como monitoreo de desastres en tiempo casi real, evaluación dinámica de recursos naturales y misiones científicas donde cada bit cuenta. La capacidad de compresión progresiva abre además la posibilidad de estrategias adaptativas según la prioridad de la región observada y la calidad del enlace de downlink.
+
+Particularmente llamativo es el hecho de que estas mejoras no solo reducen costos operativos, sino que pueden habilitar nuevos paradigmas de operación satelital que antes resultaban inviables por limitaciones de comunicación.
+
+\subsection{Limitaciones y Consideraciones}
+
+Lejos de ser un asunto resuelto, varias limitaciones importantes merecen una discusión franca. La dependencia de patrones específicos de sensores durante el entrenamiento puede reducir la generalización a nuevas misiones con características espectrales distintas. Además, en condiciones extremas —como alta cobertura nubosa o iluminación muy baja— la preservación de características semánticas tiende a deteriorarse más rápido de lo deseable.
+
+Desde el punto de vista práctico, la huella computacional del modelo representa un desafío para despliegues onboard. Aunque los beneficios en ancho de banda son sustanciales, corresponde evaluar cuidadosamente el balance energético en satélites con restricciones severas de potencia.
+
+Finalmente, consideraciones éticas y estratégicas no deben pasarse por alto: el uso de modelos complejos de IA en datos geoespaciales plantea preguntas sobre soberanía de datos, reproducibilidad y posibles sesgos introducidos por los datasets de entrenamiento. Futuros desarrollos deberán abordar no solo el rendimiento técnico, sino también estos aspectos de responsabilidad y sostenibilidad a largo plazo.
