@@ -25,7 +25,7 @@ Lejos de ser un asunto resuelto, la elección de la función de pérdida define 
 
 La pérdida total combina distorsión en el dominio del píxel (MS-SSIM), pérdida perceptual, un término adversarial ligero y la regularización de entropía. El entrenamiento se realizó en dos etapas: pre-entrenamiento con datos sintéticos degradados y fine-tuning con imágenes reales de misiones satelitales.
 
-\begin{table}[h]
+\begin{table*}[h]
 \centering
 \caption{Hiperparámetros principales del modelo propuesto}
 \label{tab:hiperparametros}
@@ -42,7 +42,7 @@ Tasa de aprendizaje & $1 \times 10^{-4}$ \\
 Optimizador & AdamW \\
 \hline
 \end{tabular}
-\end{table}
+\end{table*}
 
 \subsection{Optimización para Transmisión}
 
